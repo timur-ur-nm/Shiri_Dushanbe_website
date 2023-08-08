@@ -1,0 +1,240 @@
+@media screen and (max-width: 426px){
+    #backgound-image3{
+        display: none;
+        width: 350px;
+        height: 65px;
+        top: 444px;
+        right: 26px;
+    }
+    #backgound-image{
+        height: 630px;   
+    } 
+    #about-image{
+        top: 1275px;
+        height: 850px;
+    }
+    #news-image{
+        top: 3546px;
+        height: 612px;
+    }
+    #footer-image{
+        position: absolute;
+        top: 5775px;
+        width: -webkit-fill-available;
+        height: 588px;
+    }
+    .logo{
+        width: 75px;
+        height: 50px;
+    }
+    .header-search{
+        display: none;
+    }
+
+    .header-title > button{
+        display: none;
+        
+    }
+    .mobile-number p{
+        font-size: 10px;
+    }
+    .rus-lang{
+        display: none;
+    }
+    .header-menu{
+        display: none;
+    }
+    .burger-mmenu{
+        display: block;
+    }
+    .burger-mmenu button{   
+        border: none;
+        background-color: rgba(0,0, 0,0);
+    }
+    .main{
+        margin-top: 100px;
+        flex-direction: column;
+        text-align: center ;
+    }
+    .main >div h1{
+        font-size: 18px;
+        max-width: 298px;
+    }
+    .main div button{
+        align-self: center;
+    }
+
+
+    .arrows{
+        display: none;
+    }
+    .our-product{
+        text-align: center;
+    }
+    .our-product h1{
+        font-size: 25px;
+    }
+    .our-product p{
+        font-size: 16px;
+    }
+
+    .slider{
+        width: -webkit-fill-available;
+    }
+    .slider-line{
+        overflow-x: scroll;
+    }
+    .about-products{
+        text-align: center;
+    }
+    .about-products h1{
+        margin-top: 150px;
+        font-size: 25px;
+    }
+    .about-products-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about-products-cards  div{
+        gap: 10px;
+    }
+    .about-products-cards  div img{
+        width: 100%;
+    }
+    .about-products-cards  div p{
+        max-width: 175px;
+        font-size: 14px;
+    }
+    
+    
+    .production{
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .production h1{
+        font-size:21px;
+    }
+    .production > div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .production > div div{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .production > div div h2{
+        font-size: 18px;
+    }
+    
+    .news-arrows{
+        display: none;
+    }
+    #newsSlider{
+        width: auto;    
+        overflow-x: scroll;
+    }
+    #newsSliderLine > div{
+        width: -webkit-fill-available;
+    }
+    #newsSliderLine div img{
+        width: inherit;
+    }
+    #news-image {
+        top: 3486px;
+        height: 732px;
+    }
+    .all-news{
+        align-self: center;
+        padding: 13px 33px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 53px;
+        background: var(--1, #5CBF14);
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .partners{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .partns img{
+        width: 30%;
+    }
+    .partner4{
+        display: none;
+    }
+    .partner5{
+        display: none;
+    }
+
+
+
+    .info{
+        flex-direction: column;
+    }
+    .contacts h1{
+        font-size: 20px;
+    }
+    .contacts div div h3{
+        font-size: 16px;
+    }
+    .contacts div div{
+        font-size: 12px;
+    }
+    .contacts div div div svg{
+        width: 40%;
+    }
+    .form{
+        width: -webkit-fill-abailable;
+        padding: 30px 35px;
+    }
+    .form input{
+        padding: 10px;
+        width: 100%;
+    }
+    .form h1{
+        font-size: 24px;
+    } 
+    .form textarea{
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .form span{
+        display: block;
+    }
+    .form button{
+        padding: 9px 24px;
+        color: #FFF;
+        font-family: Nunito;
+        font-size: 13px;
+    }
+    footer{
+        margin-top: 270px;
+        text-align: center;
+    }
+    .footer-title{
+        flex-direction: column;
+    }
+    .footer-logo p{
+        font-size: 14px;
+    }
+    .footer-logo{
+        
+        flex-direction: column;
+    }
+    .footer-copyright{
+        flex-direction: column;
+    }
+}

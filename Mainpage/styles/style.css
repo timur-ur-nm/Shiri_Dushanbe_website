@@ -358,27 +358,6 @@ header{
     font-weight: 800;
     line-height: normal;
 }
-.news-arrows{
-    position: relative;
-    top: 200px;
-}
-.news-arrows > button{
-    background-color: rgb(0 0 0 / 0);
-    border: none ;
-}
-#newsSliderNext{
-    position: absolute;
-    left: 1155px;
-    top: 26px;
-}
-#newsSliderPrev{
-    position: absolute;
-    left: -103px;
-    top: 26px;
-}
-
-
-
 
 #newsSlider{
     width: 1094px;   
@@ -404,21 +383,6 @@ header{
 }
 
 
-.all-news{
-    align-self: center;
-    padding: 23px 60px;
-    height: 81px;
-    flex-shrink: 0;
-    border-radius: 53px;
-    background: var(--1, #5CBF14);
-    color: #FFF;
-    font-family: Nunito;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    border: none;
-}
 
 
 .partners{
